@@ -4,7 +4,6 @@ body {
   font-size: 22px;
   color:seashell;
   opacity: 0.9;
-  text-align: center;
 }
 h1,h2,h3,h4,h5 {
   margin-top: 10px;
@@ -45,6 +44,8 @@ nav span a{
 .main {
   width:1200px;
   margin: auto;
+
+  text-align: center;
 }
 .content {
   width:100%;
@@ -62,11 +63,13 @@ nav span a{
 #featured {
   width:1000px;
   margin: 30px auto;
+  padding-top: 69px;
 }
 #location{
   background-image: url("../images/locations.jpg");
   width:1200px;
   height:500px;
+  padding-top: 69px;
 }
 #contact {
   height:200px;
@@ -91,4 +94,8 @@ nav span a{
 }
 #locationtitle{
   flex-basis: 100%;
+}
+/*footer*/
+footer{
+  padding-left: 20px;
 }
