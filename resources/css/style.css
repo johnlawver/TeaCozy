@@ -71,6 +71,8 @@ nav span a{
 #contact {
   height:200px;
   width:1200px;
+  flex-direction: column;
+  align-content: space-around;
 }
 .tea img {
   height:200px;
